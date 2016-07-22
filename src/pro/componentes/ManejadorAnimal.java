@@ -4,8 +4,6 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.function.Predicate;
-
 import pro.entidades.Animal;
 import pro.entidades.Genero;
 import pro.entidades.ListaAnimales;
