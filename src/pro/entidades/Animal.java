@@ -3,14 +3,21 @@ package pro.entidades;
 import java.util.Date;
 
 public class Animal {
-
+	
 	private String tipo;
-	
+
 	private Genero genero;
-	
+
 	private String nombre;
-	
+
 	private Date ingreso;
+
+	public Animal(){
+		setTipo("-");
+		setGenero(Genero.M);
+		setNombre("?");
+		setIngreso(null);
+	}
 
 	public String getTipo() {
 		return tipo;

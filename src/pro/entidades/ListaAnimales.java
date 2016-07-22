@@ -11,6 +11,15 @@ public class ListaAnimales {
 	}
 	
 	public void adicionar(Animal animal){
-		lista.add(animal);
+		lista.add(0, animal);
+	}
+	
+	public LinkedList<Animal> obtenerTodos(){
+		LinkedList<Animal> l = new LinkedList<Animal>(lista);
+		return l;
+	}
+	
+	public boolean isEmpty(){
+		return lista.isEmpty();
 	}
 }
